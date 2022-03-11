@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    margin: auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+section {
+    padding: 35px;
+}
+
+.greyish-blue {
+    background-color: hsl(179, 47%, 52%);
+    color: #fff;
+}
+
+.cyan {
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.row>section {
+    flex: 1;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 35px;
+}
+
+.yellow-text {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    font-size: 18px;
+    color: hsl(214, 100%, 94%);
+    ;
+}
+
+p.light-black {
+    color: rgb( 152, 166, 189);
+    margin: 7px;
+}
+
+.flex {
+    color: black;
+}
+
+p {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    box-shadow: 0 2px 20px 0px rgb(53 53 53 / 10%);
+    color: #fff;
+    font-family: 'karla', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 0;
+    margin-top: 15px;
+    width: 100%;
+    border: 0px;
+}
+
+ul {
+    list-style: none;
+    opacity: 0.7;
+    padding: 0;
+}
+
+ul li {
+    line-height: 28px;
+    color: rgb(229, 239, 245);
+}
+
+@media screen and (max-width:600px) {
+    .row {
+        flex-direction: column;
+    }
+}
